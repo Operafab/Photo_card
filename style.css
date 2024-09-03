@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landscape_background{
+  background-image: linear-gradient(0deg, transparent, rgba(255, 255, 255, 0.425), rgba(255, 255, 255, 0.353)), url(https://images.unsplash.com/photo-1515310787031-25ac2d68610d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdW50YWlufGVufDB8fDB8fHww);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 50vw;
+ 
+  
+}
+
+.main{
+background-image:linear-gradient(0deg, #0000005c,#0b0b0bdf), url(https://i.pinimg.com/564x/f6/35/20/f63520cc780b82c25fd91559b12f3cf6.jpg);
+background-position:center;
+background-size:cover;
+background-repeat: no-repeat;
+color: rgb(255, 255, 255);
+
+}
+
+
+.photo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  
+}
+
+.photo img{
+  background-image: url(https://w0.peakpx.com/wallpaper/599/272/HD-wallpaper-joaquin-phoenix-as-joker.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-style: solid; 
+  background-position:center;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  
+}
+
+.footer_flex{
+  display: grid;
+  grid-template-columns: repeat(3,5fr);
+  padding: 10px;
+  background-color: rgba(0, 191, 255, 0.781);
+  margin-top: 2rem;
+  gap:2rem ;
+  
+}
+.one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.three{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.footer_text{
+  background-color: black;
+  border-style: solid;
+  margin-top: 2.5rem; 
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width:12rem;
+  margin-left: 3rem;
+  padding: 10px;
+  
+}
+
+
+
